@@ -115,14 +115,6 @@
   font-weight: 700;
 }
 
-.sidebar__account_logout {
-  text-decoration: underline;
-}
-
-.sidebar__account_logout:hover {
-  text-decoration: none;
-}
-
 .sidebar__login {
   margin-top: 1.5rem;
 }

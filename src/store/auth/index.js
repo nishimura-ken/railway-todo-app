@@ -86,6 +86,8 @@ export const signup = createAsyncThunk(
         password,
         name,
       });
+
+      localStorage.setItem("railway-todo-app__token", response.data.token);
       thunkApi.dispatch(setToken(response.data.token));
       void thunkApi.dispatch(fetchUser());
     } catch (e) {
